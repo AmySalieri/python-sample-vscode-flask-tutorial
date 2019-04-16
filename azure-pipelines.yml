@@ -1,5 +1,5 @@
 variables:
-  ConnectedServiceName: 'Primary (44f7aaf4-97f8-4aa9-a791-245ed34e3bd5)'
+  ConnectedServiceName: 'Primary'
   WebAppName: 'flaskpipelines'
 
 trigger:
