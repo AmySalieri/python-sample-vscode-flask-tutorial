@@ -1,6 +1,6 @@
 variables:
   ConnectedServiceName: 'Primary'
-  WebAppName: 'flaskpipelines'
+  WebAppName: 'msdocs-flaskpipelines'
 
 trigger:
 - master
