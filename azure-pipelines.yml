@@ -48,7 +48,7 @@ steps:
     ScriptType: Inline Script
     InlineScript: 
       pwd
-      #python3.6 -m venv testenv
-      #source testenv/bin/activate
-      #pip install setuptools
-      #pip install -r requirements.txt
+      python3.6 -m venv testenv
+      source testenv/bin/activate
+      pip install setuptools
+      pip install -r requirements.txt
