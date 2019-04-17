@@ -47,8 +47,7 @@ steps:
 
     ScriptType: Inline Script
     InlineScript: 
-      cd site/wwwroot
-      ls -l
+      pwd
       #python3.6 -m venv testenv
       #source testenv/bin/activate
       #pip install setuptools
