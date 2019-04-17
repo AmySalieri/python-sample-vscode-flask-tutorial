@@ -47,7 +47,6 @@ steps:
 
     ScriptType: Inline Script
     InlineScript: 
-      pwd
       echo "Trying venv"
       python3.6 -m venv testenv
       echo "Trying source"
