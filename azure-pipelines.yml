@@ -46,11 +46,10 @@ steps:
     StartupCommand: 'gunicorn --bind=0.0.0.0 --workers=4 startup:app'
 
     ScriptType: Inline Script
-    InlineScript: 
-      echo "Trying venv"
-      python3.6 -m venv testenv
+    InlineScript:
+      python3.6 -m venv testenv3.6
       echo "Trying source"
-      source testenv/bin/activate
+      source testenv3.6/bin/activate
       echo "Trying pip install"
       pip install setuptools
       pip install -r requirements.txt
