@@ -45,5 +45,5 @@ steps:
     Package: '$(Build.ArtifactStagingDirectory)/Application$(Build.BuildId).zip'
     StartupCommand: 'gunicorn --bind=0.0.0.0 --workers=4 startup:app'
 
-    ScriptType: 'File Path'
-    FilePath: 'post-deployment.sh'
+    ScriptType: File Path
+    ScriptPath: 'post-deployment.sh'
