@@ -45,5 +45,12 @@ steps:
     Package: '$(Build.ArtifactStagingDirectory)/Application$(Build.BuildId).zip'
     StartupCommand: 'gunicorn --bind=0.0.0.0 --workers=4 startup:app'
 
+    # Inline post-deployment script
+    ScriptType: Inline Script
+    InlineScript:
+      echo 'Add your inline script steps here'
+
+    # Alternate form: refer to a script in the repository
     # ScriptType: File Path
     # ScriptPath: 'post-deployment.sh'
+
