@@ -28,7 +28,9 @@ steps:
 
 - script: |
     echo Deleting venv
-    rmdir -rf .env
+    ls
+    rm -rf .env
+    ls
   displayName: 'Remove .env before zip'
 
 - task: ArchiveFiles@2
